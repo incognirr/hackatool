@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack-A-Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="sparkles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Hack-A-Tool</h1>
+            <nav>
+                <a href="#" class="active" data-page="home">Home</a>
+                <a href="#" data-page="tools">Tools</a>
+                <a href="#contact" data-page="contact">Contact</a>
+            </nav>
+            <button id="view-toggle" class="view-toggle">
+                <i data-feather="grid"></i>
+            </button>
+        </header>
+        <main>
+            <div id="home-page" class="page active">
+                <div class="hero">
+                    <h2>Hack-A-Tool</h2>
+                    <p class="desc">Explore our curated collection of cybersecurity utilities and development resources.</p>
+                    <button id="view-database-btn" class="database-button">
+                        <i data-feather="database"></i>
+                        <span>View Tool Database</span>
+                    </button>
+                </div>
+                
+                <div class="categories-scroll-container">
+                    <h3>Popular Categories</h3>
+                    <div class="categories-scroll">
+                        <!-- Categories will be added here dynamically -->
+                    </div>
+                </div>
+                
+                <div class="home-description">
+                    <h3>The Ultimate Hacking Resource</h3>
+                    <p>Hack-A-Tool provides comprehensive access to cybersecurity tools and resources for ethical hackers, security researchers, and IT professionals. Our curated collection includes everything from network scanners and penetration testing frameworks to password crackers and encryption utilities.</p>
+                    <p>Whether you're learning cybersecurity, conducting authorized penetration tests, or securing your own systems, our categorized collection helps you find the right tools for the job.</p>
+                </div>
+                
+                <div id="contact" class="contact-section">
+                    <div class="contact-card">
+                        <h3>Suggest New Tools</h3>
+                        <p>Know a great tool that should be included? We're constantly updating our collection.</p>
+                        <div class="contact-info">
+                            <i class="mdi mdi-discord"></i>
+                            <span>Contact me on Discord: <strong>incognirr</strong></span>
+                        </div>
+                        <a href="https://discord.com/users/incognirr" target="_blank" class="contact-button">
+                            <i data-feather="send"></i>
+                            <span>Message on Discord</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="tools-page" class="page">
+                <div class="tools-search-container">
+                    <i data-feather="search" class="search-icon"></i>
+                    <input type="text" id="tools-search-input" placeholder="Search for tools...">
+                </div>
+                <div id="tools-grid"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
