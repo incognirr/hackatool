@@ -268,7 +268,7 @@ const toolsData = [
         level: "safe",
         explanation: "This is a Safe tool, but you should still be cautious"
       }},
-      { name: "Twilio", url: "https://twilio.com", icon: "phone", safety: {
+      { name: "Globfone", url: "https://globfone.com/", icon: "phone", safety: {
         level: "safe",
         explanation: "This is a Safe tool, but you should still be cautious"
       }},
@@ -300,6 +300,101 @@ const toolsData = [
       }},
     ],
     icon: "globe"
+  },
+  {
+    category: "Voice Cloning Software",
+    tools: [
+      { name: "ElevenLabs", url: "https://elevenlabs.io", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Descript Overdub", url: "https://www.descript.com/overdub", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Resemble AI", url: "https://www.resemble.ai", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Mozilla TTS", url: "https://github.com/mozilla/TTS", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Coqui TTS", url: "https://github.com/coqui-ai/TTS", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "VocaliD", url: "https://vocalid.ai", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "microphone"
+  },
+  {
+    category: "Reverse Image Search Engines",
+    tools: [
+      { name: "PimEyes", url: "https://pimeyes.com", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "TinEye", url: "https://tineye.com", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Yandex Images", url: "https://yandex.com/images", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "RevEye", url: "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfheljf", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "image-search"
+  },
+  {
+    category: "Facial Recognition",
+    tools: [
+      { name: "Face++", url: "https://www.faceplusplus.com", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Amazon Rekognition", url: "https://aws.amazon.com/rekognition", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Kairos", url: "https://www.kairos.com", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Betaface", url: "https://www.betaface.com", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "face"
+  },
+  {
+    category: "Image Metadata Analysis",
+    tools: [
+      { name: "ExifTool", url: "https://exiftool.org", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "FotoForensics", url: "https://fotoforensics.com", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "ImageMagick", url: "https://imagemagick.org", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "metadata"
+  },
+  {
+    category: "Deepfake Image",
+    tools: [
+      { name: "Deepfakex AI", url: "https://app.deepfakex.ai/#/auth", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Undress AI", url: "https://undressai.tools/undress/?utm_source=porndude&utm_content=aiundress", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "FaceSwap", url: "https://faceswap.dev", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "DeepFaceLab", url: "https://github.com/iperov/DeepFaceLab", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Reface", url: "https://reface.ai", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "deepfake"
+  },
+  {
+    category: "Data Scraping",
+    tools: [
+      { name: "Octoparse", url: "https://www.octoparse.com", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "ParseHub", url: "https://www.parsehub.com", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Import.io", url: "https://www.import.io", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Hunter.io", url: "https://hunter.io", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Snov.io", url: "https://snov.io", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "data-scraping"
+  },
+  {
+    category: "Speech-to-Text",
+    tools: [
+      { name: "IBM Watson Speech to Text", url: "https://www.ibm.com/cloud/watson-speech-to-text", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Otter.ai", url: "https://otter.ai", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "speech"
+  },
+  {
+    category: "Image Forgery Detection",
+    tools: [
+      { name: "Forensically", url: "https://29a.ch/photo-forensics", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Ghiro", url: "http://www.ghiro.org", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "forensics"
+  },
+  {
+    category: "Deepfake Detection",
+    tools: [
+      { name: "Deepware", url: "https://deepware.ai", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Sensity", url: "https://sensity.ai", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "detection"
+  },
+  {
+    category: "Deepfake Video",
+    tools: [
+      { name: "MyHeritage Deep Nostalgia", url: "https://www.myheritage.com/deep-nostalgia", safety: { level: "safe", explanation: "This tool is safe." } },
+      { name: "Zao", url: "https://www.zaoapp.net", safety: { level: "safe", explanation: "This tool is safe." } }
+    ],
+    icon: "video"
   }
 ];
 
